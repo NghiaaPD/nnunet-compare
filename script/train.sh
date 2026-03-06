@@ -1,8 +1,8 @@
 #!/bin/bash
 
-export nnUNet_raw="/mnt/data/coden/nnunet/nnUNet/data/nnUNet_raw"
-export nnUNet_preprocessed="/mnt/data/coden/nnunet/nnUNet/data/nnUNet_preprocessed"
-export nnUNet_results="/mnt/data/coden/nnunet/nnUNet/data/nnUNet_results"
+export nnUNet_raw="data/nnUNet_raw"
+export nnUNet_preprocessed="data/nnUNet_preprocessed"
+export nnUNet_results="data/nnUNet_results"
 export PYTHONWARNINGS="ignore::UserWarning"
 
 # --c: resume từ checkpoint cuối nếu đã train trước đó
